@@ -4,7 +4,7 @@ python-telegram-bot
 bs4 
 user_agent 
 ping3 
-nmap 
+python-nmap 
 tcping 
 pyping 
 youtube_dl 
@@ -16,4 +16,5 @@ tgcrypto
 aiohttp
 yarl
 aiohttp_socks==0.7.1
+
 aiohttp-socks
