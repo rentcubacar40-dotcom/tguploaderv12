@@ -50,7 +50,7 @@ class JsonDatabase(object):
                      'moodle_password': '',
                      'isadmin': 0,
                      'zips': 240,
-                     'uploadtype':'calendar',
+                     'uploadtype':'draft',
                      'proxy':'',
                      'tokenize':0,
                      'rename':0,
@@ -87,4 +87,5 @@ class JsonDatabase(object):
             data = json.loads(str(tokens[1]).replace("'", '"'))
 
             self.items[user] = data
+
 
