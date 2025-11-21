@@ -48,7 +48,7 @@ class JsonDatabase(object):
                      'moodle_repo_id': 4,
                      'moodle_user': '',
                      'moodle_password': '',
-                     'isadmin': 1,
+                     'isadmin': 0,
                      'zips': 240,
                      'uploadtype':'calendar',
                      'proxy':'',
@@ -85,4 +85,5 @@ class JsonDatabase(object):
             tokens = lin.split('=')
             user = tokens[0]
             data = json.loads(str(tokens[1]).replace("'", '"'))
+
             self.items[user] = data
